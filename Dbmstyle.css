@@ -1,0 +1,107 @@
+#backcontainer{
+	position:absolute;
+	left:50%;
+	top:550px;
+	transform:translate(-50%,-50%);
+	width:80%;
+	height:80%;
+}
+.support{
+	position:absolute;
+	top:60px;
+	width:35%;
+	height:88%;
+	margin:0;
+	padding:0;
+	background:linear-gradient(45deg,green,white);
+	box-shadow: 5px 5px 10px 5px black;
+	opacity:0.6;
+	transition:0.5s;
+}
+.support:hover{
+	transition:0.7s;
+	background:linear-gradient(45deg,white,green);
+	opacity:0.8;
+}
+#back1{
+	left:7%;
+}
+#back2{
+	left:57%;
+}
+.heading{
+	position:absolute;
+	top:7px;
+	font-size:40px;
+	font-family:"Centaur";
+	letter-spacing:1.2;
+	left:8%;
+}
+span{
+	position:absolute;
+	top:35px;
+	left:7.5%;
+	width:.3%;
+	height:40px;
+	background:brown;
+}
+.inpt{
+	position:relative;
+	left:6.2%;
+	width:85%;
+	border:none;
+	outline:none;
+	border-bottom:solid;
+	border-bottom-color:brown;
+	font-size:22px;
+	opacity:.7;
+	background:none;
+	transition:.5s;
+}
+#dbn{
+	top:140px;
+}
+#dbname{
+	top:140;
+}
+.hint{
+	position:relative;
+	left:6.5%;
+	font-size:22px;
+	font-weight:bold;
+	transition:.5s;
+}
+#tbn{
+	top:200px;
+}
+#tbname{
+	top:200px;
+}
+.error{
+	position:relative;
+	left:6.3%;
+	color:red;
+	width:80%;
+	font-size:20px;
+}
+#eruser{
+	top:160px;
+}
+#erpass{
+	top:220px;
+}
+#smbt{
+	position:absolute;
+	left:78%;
+	top:520px;
+	width:15%;
+	height:30px;
+	font-size:18px;
+	border-radius:4px;
+	opacity:.7;
+	cursor:pointer;
+}
+#smbt:hover{
+	opacity:1;
+	font-size:20px;
+}
